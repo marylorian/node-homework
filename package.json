@@ -1,0 +1,38 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Homework for Node.js EPAM Course",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "lint": "eslint . --ext .js",
+    "prettier": "prettier --write ./src",
+    "prettier-check": "prettier --check ./src",
+    "task1": "nodemon src/task1/index.js",
+    "task2": "nodemon src/task2/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marylorian/node-homework.git"
+  },
+  "author": "Mariia Lobareva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marylorian/node-homework/issues"
+  },
+  "homepage": "https://github.com/marylorian/node-homework#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.30.0",
+    "nodemon": "^2.0.20",
+    "prettier": "2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "fs": "^0.0.1-security"
+  }
+}
